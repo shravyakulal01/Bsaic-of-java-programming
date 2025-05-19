@@ -1,6 +1,7 @@
+//Write a java program for getting different colors through ArrayList interface and search whether the color "Red" is available or not
 package lab1;
 import java.util.*;
-public class ExArrayList1 {
+public class ColorSearchArrayList {
 public static void main(String[] args) {
 		List<String> ls = new ArrayList<>();
 		ls.add("Orange");

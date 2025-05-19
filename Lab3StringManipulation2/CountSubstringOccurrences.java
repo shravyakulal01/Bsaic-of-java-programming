@@ -1,6 +1,7 @@
+// Write a Java Program for Counting how many times a substring appears in a main string using user defined function countOccurrences()
 package Stringop;
 
-public class StringEx2 {
+public class CountSubstringOccurrences {
 	public static int countOccurrences(String mainString, String subString) {
         if (mainString == null || subString == null || subString.isEmpty()) {
             return 0;

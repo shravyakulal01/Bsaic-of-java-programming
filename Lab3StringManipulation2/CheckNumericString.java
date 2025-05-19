@@ -1,6 +1,7 @@
+//Write a Java Program for Verifying if a string contains only numeric characters using user defined function isNumeric()
 package Stringop;
 
-public class StringEx8 {
+public class CheckNumericString {
 	 public static boolean isNullOrEmpty(String str) {
 		 // this is used to  trim the string
 	        return str == null || str.trim().isEmpty();

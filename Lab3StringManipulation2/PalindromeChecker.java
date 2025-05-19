@@ -1,6 +1,7 @@
+//Write a Java Program for Checking if a string reads the same backward as forward (ignoring case and punctuation) using user defined function isPalindrome():
 package Stringop;
 
-public class StringEx4 {
+public class PalindromeChecker {
 	  public static boolean isPalindrome(String str) {
 	        if (str == null) {
 	            return false;

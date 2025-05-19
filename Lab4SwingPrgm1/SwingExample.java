@@ -1,6 +1,5 @@
-//4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing
-//Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
-package Swings;
+//4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
+package HelloSwing;
 import java.awt.*;
 import java.awt.Font;
 //A simple Swing application.

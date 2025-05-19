@@ -1,6 +1,7 @@
+// Write a Java Program for Reversing the characters in a string using user defined function reverseString().
 package Stringop;
 
-public class StringEx3 {
+public class ReverseString {
 	public static String reverseString(String str) {
         if (str == null) {
             return null;

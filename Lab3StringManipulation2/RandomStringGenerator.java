@@ -1,6 +1,6 @@
-package Stringop;
+// Write a Java Program for Creating a random string of a specified length using user defined function generateRandomString()package Stringop;
 import java.util.Random;
-public class StringEx9 {
+public class RandomStringGenerator {
 	public static String RandomString(int length) {
         String charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         Random rand = new Random();
