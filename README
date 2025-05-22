@@ -1,0 +1,120 @@
+# 💻 Java Programs – Assignment Repository
+
+Explore all fundamental and advanced Java programs including `ArrayList`, `LinkedList`, `Swing`, `Servlet`, `JSP`, and `JDBC`.
+
+---
+
+## ✅ 1. Collections – ArrayList & LinkedList
+
+### 📌 1a. ArrayList vs LinkedList Operations
+- Add, Update, Remove, Search, Sort, Sublist, Iterator, etc.
+
+[`📝 Code`](./1a_ArrayListLinkedList.java) | [`📷 Output`](./screenshots/1a_output.png)
+
+### 📌 1b. ArrayList Programs
+- ✅ Search color
+- ✅ Remove by index and value
+- ✅ Sort colors
+- ✅ Sublist extraction
+- ✅ Remove nth element
+
+[`📝 Code`](./1b_ArrayListPrograms.java) | [`📷 Output`](./screenshots/1b_output.png)
+
+### 📌 1c. LinkedList Programs
+- Iterate from 2nd position
+- Reverse iteration
+- Insert at end
+- Display index-wise elements
+- Swap elements
+
+[`📝 Code`](./1c_LinkedListPrograms.java) | [`📷 Output`](./screenshots/1c_output.png)
+
+---
+
+## ✅ 2. String Handling
+
+### 📌 2a. String Operations
+- Creation, Length, Comparison, Substring, Concat, Format, Email validation
+
+[`📝 Code`](./2a_StringFunctions.java) | [`📷 Output`](./screenshots/2a_output.png)
+
+### 📌 2b. StringBuilder vs StringBuffer Performance Test
+
+[`📝 Code`](./2b_PerformanceTest.java) | [`📷 Output`](./screenshots/2b_output.png)
+
+---
+
+## ✅ 3. String Exercises
+
+### 📌 3b. Part 1
+- Null check, Count substring, Reverse string, Palindrome, Remove whitespace
+
+### 📌 3c. Part 2
+- Capitalize words, Truncate, Check numeric, Generate random string, Count words
+
+[`📝 Code`](./3_StringExercises.java) | [`📷 Output`](./screenshots/3_output.png)
+
+---
+
+## ✅ 4. Swing Basics
+
+### 📌 4a. Hello Swing GUI  
+### 📌 4b. Button: India or Sri Lanka  
+### 📌 4c. Button with Image: Digital Clock or Hour Glass  
+
+[`📝 Code`](./4_SwingPrograms.java) | [`📷 Output`](./screenshots/4_output.png)
+
+---
+
+## ✅ 5. Advanced Swing
+
+- JList and display selection (country or capital)
+- TabbedPane for different colors
+
+[`📝 Code`](./5_SwingAdvanced.java) | [`📷 Output`](./screenshots/5_output.png)
+
+---
+
+## ✅ 6. Servlet Programs
+
+- Factorial calculation  
+- Cookie to track user visits  
+- Prime number check  
+
+[`📝 Code`](./6_ServletPrograms.java) | [`📷 Output`](./screenshots/6_output.png)
+
+---
+
+## ✅ 7. JSP Cookie & Session Management
+
+- Session with 1-minute expiry  
+- Add cookies with name/domain/max age  
+
+[`📝 Code`](./7_JSP_SessionCookie.java) | [`📷 Output`](./screenshots/7_output.png)
+
+---
+
+## ✅ 8. JDBC + JSP – Coffee & Employee Tables
+
+- ➕ Insert Coffee
+- 🔁 Update Coffee
+- 🧾 Insert Employee & Show Salary Report
+- ✏️ Update Employee
+
+[`📝 Code`](./8_JDBC_Projects.java) | [`📷 Output`](./screenshots/8_output.png)
+
+---
+
+## ✅ 9. JDBC + JSP – Data Querying & Deletion
+
+- ❌ Delete coffee by ID  
+- 🔍 Display coffee starting with 'D'  
+- 🧾 Insert employee records  
+- ❌ Delete employees starting with 'S'  
+
+[`📝 Code`](./9_JDBC_Advanced.java) | [`📷 Output`](./screenshots/9_output.png)
+
+---
+
+> 📎 Replace links like `./filename.java` and `./screenshots/output.png` with your actual file locations in your repository.
+
