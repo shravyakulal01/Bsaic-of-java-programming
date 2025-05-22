@@ -1,139 +1,144 @@
-# 💥💻 JAVA ASSIGNMENT – PROGRAM SUMMARY
+<h1 align="center" style="font-size: 48px; font-weight: bold; color: #2c3e50;">
+💫 JAVA ASSIGNMENT PROGRAMS – SUMMARY
+</h1>
 
 ---
 
-## 🧩 1️⃣ COLLECTIONS – ARRAYLIST & LINKEDLIST
+<h2 style="font-size: 28px; color: #333;">🧩 1️⃣ COLLECTIONS – ARRAYLIST & LINKEDLIST</h2>
 
-### 🔸 1a. **ArrayList vs LinkedList**
-**🔹 Perform Operations:**
-- 🌿 **Add Elements**
-- 📌 **Insert at Index**
-- 🔁 **Add Multiple**
-- 🔍 **Access / Search**
-- ✏️ **Update**
-- ❌ **Delete**
-- 🔢 **Size**
-- 🔄 **Iterate (for / Iterator)**
-- 📊 **Sort**
-- ✂️ **Sublist**
-- 🧹 **Clear**
-
----
-
-### 🔸 1b. **ArrayList Programs**
-- 🎨 Store & **search** for colors
-- ❌ **Remove** by index/value
-- 📊 **Sort** using `Collections.sort()`
-- ✂️ **Extract Sublist**
-- ❌ **Delete nth element**
+### 🔸 <strong>1a. ArrayList vs LinkedList</strong>
+<strong>Operations performed:</strong>
+- 🌿 <strong>Add Elements</strong>
+- 📌 <strong>Insert at Index</strong>
+- 🔁 Add Multiple Elements
+- 🔍 Access / Search
+- ✏️ Update
+- ❌ Remove
+- 🔢 List Size
+- 🔄 Iterate (for / Iterator)
+- 📊 Sort List
+- ✂️ Sublist
+- 🧹 Clear
 
 ---
 
-### 🔸 1c. **LinkedList Programs**
-- 🔄 **Iterate from position** using `ListIterator`
-- 🔃 **Reverse Iterate**
-- ➕ **Insert at end**
-- 🧾 **Show index-wise data**
-- 🔁 **Swap elements**
+### 🔸 <strong>1b. ArrayList Programs</strong>
+- 🎨 Store & <strong>search for colors</strong>
+- ❌ <strong>Remove</strong> by index/value
+- 📊 Sort using Collections.sort()
+- ✂️ Extract Sublist
+- ❌ Remove nth element
 
 ---
 
-## 🧵 2️⃣ STRING OPERATIONS
-
-### 🔸 2a. **Core String Functions**
-- 🔤 **Create, Length, Char Access**
-- 🔁 **Compare**
-- 🔍 **Search & Substring**
-- ✏️ **Modify & Trim**
-- ➕ **Concatenate**
-- 🔗 **Split**
-- 🔧 **StringBuilder**
-- 🎨 **Format Strings**
-- 📧 **Email Validation**
+### 🔸 <strong>1c. LinkedList Programs</strong>
+- 🔄 Iterate from position using ListIterator
+- 🔃 Reverse Iterate
+- ➕ Insert at end
+- 🧾 Show index-wise data
+- 🔁 Swap elements
 
 ---
 
-### 🔸 2b. **StringBuffer vs StringBuilder**
+<h2 style="font-size: 28px; color: #333;">💬 2️⃣ STRING OPERATIONS</h2>
+
+### 🔸 <strong>2a. Core String Functions</strong>
+- 🔤 Create & Access
+- 📏 Length, charAt
+- 🔁 Compare (equals, compareTo)
+- 🔍 Search (contains, indexOf)
+- ✏️ Modify (replace, trim, upper/lower case)
+- ➕ Concatenation
+- 🔗 Split
+- 🛠️ StringBuilder
+- ✨ Format
+- 📧 Email validation
+
+---
+
+### 🔸 <strong>2b. StringBuffer vs StringBuilder</strong>
 - ⏱️ Append "AIET" 10,000 times
-- ⚡ **Compare speed**
-- ✅ **StringBuilder is faster**
+- ⚡ Compare Speed
+- ✅ StringBuilder is faster (single-threaded)
 
 ---
 
-## 🧪 3️⃣ STRING EXERCISES
+<h2 style="font-size: 28px; color: #333;">🧪 3️⃣ STRING EXERCISES</h2>
 
-### 🔸 Part 1
-- 🕳️ **Null or Empty Check**
-- 🔁 **Count Substring**
-- 🔄 **Reverse String**
-- 🔁 **Check Palindrome**
-- 🧼 **Remove Whitespace**
+### 🔸 <strong>Part 1</strong>
+- 🕳️ Null or Empty Check
+- 🔁 Count Substring
+- 🔄 Reverse String
+- 🔁 Palindrome Check
+- 🧼 Remove Whitespace
 
-### 🔸 Part 2
-- 🔡 **Capitalize Words**
-- ✂️ **Truncate String**
-- 🔢 **Check Numeric**
-- 🎲 **Generate Random String**
-- 🧮 **Count Words**
+### 🔸 <strong>Part 2</strong>
+- 🔡 Capitalize Words
+- ✂️ Truncate with Ellipsis
+- 🔢 Check Numeric
+- 🎲 Generate Random String
+- 🧮 Count Words
 
 ---
 
-## 🎨 4️⃣ SWING GUI
+<h2 style="font-size: 28px; color: #333;">🎨 4️⃣ SWING GUI</h2>
 
 - 👋 Hello Swing Message
-- 🇮🇳 Button Press Message: **India / Sri Lanka**
-- 🕰️ Button with Images: **Digital Clock / Hour Glass**
+- 🇮🇳 Button Message: India / Sri Lanka
+- 🕰️ Image Buttons: Digital Clock / Hour Glass
 
 ---
 
-## 🖼️ 5️⃣ ADVANCED SWING – JList & Tabs
+<h2 style="font-size: 28px; color: #333;">🖼️ 5️⃣ ADVANCED SWING – JLIST & TABS</h2>
 
-- 🌍 **Select Countries / Capitals**
-- 🟥🟦🟩 **Tabbed Colors**: Red, Green, Blue
+- 🌍 Select Countries / Capitals
+- 🟥🟩🟦 Tabbed Colors: Red, Green, Blue
 - 🌈 More Tabs: Cyan, Magenta, Yellow
 
 ---
 
-## 🌐 6️⃣ SERVLET PROGRAMS
+<h2 style="font-size: 28px; color: #333;">🌐 6️⃣ SERVLET PROGRAMS</h2>
 
-- ➗ **Factorial Calculator**
-- 🍪 **Cookie Visit Counter**
-- 🔢 **Prime Number Checker**
-
----
-
-## 🧁 7️⃣ JSP – SESSION & COOKIE
-
-- ⏲️ **1-Minute Session Expiry Greeting**
-- 🍪 **Cookie: Add Name, Domain, Expiry**
+- ➗ Factorial Calculator
+- 🍪 Cookie Visit Counter
+- 🔢 Prime Number Checker
 
 ---
 
-## 📊 8️⃣ JSP + JDBC – DATABASE PROGRAMS
+<h2 style="font-size: 28px; color: #333;">🧁 7️⃣ JSP – SESSION & COOKIE</h2>
 
-- ☕ **Insert Coffee Record**
-- 🔁 **Update Coffee by ID**
-- 👨‍💼 **Insert Employees & Salary Report**
-- ✏️ **Update Employee Info**
+- ⏲️ 1-Minute Session Expiry Greeting
+- 🍪 Cookie: Add Name, Domain, Expiry, View All
 
 ---
 
-## 🗑️ 9️⃣ JDBC – DATA QUERY & DELETE
+<h2 style="font-size: 28px; color: #333;">📊 8️⃣ JSP + JDBC – DATABASE PROGRAMS</h2>
 
-- ❌ **Delete Coffee by ID**
-- 🔍 **Search Coffee Starting with 'D'**
-- 📥 **Insert Employee & Show Report**
-- ❌ **Delete Employees starting with 'S'**
-
----
-
-# ✅ HIGHLIGHTS
-
-- 🔗 Covers **Core Java**, **Collections**, **String**, **Swing**, **Servlet**, **JSP**, and **JDBC**
-- 🌐 Combines **Frontend + Backend** logic
-- 💾 Uses **MySQL DB** and real-world scenarios
-- ✨ Code is **modular, readable, and well-commented**
+- ☕ Insert Coffee Record
+- 🔁 Update Coffee by ID
+- 👨‍💼 Insert Employees & Salary Report
+- ✏️ Update Employee Info
 
 ---
 
-> 🖊️ *Add your `.java`, `.jsp`, `.html`, and screenshots in your repo and link them in this file if needed.*
+<h2 style="font-size: 28px; color: #333;">🗑️ 9️⃣ JDBC – DATA QUERY & DELETE</h2>
+
+- ❌ Delete Coffee by ID
+- 🔍 Search Coffee Starting with 'D'
+- 📥 Insert Employee & Show Report
+- ❌ Delete Employees starting with 'S'
+
+---
+
+<h2 align="center" style="font-size: 24px; color: #1abc9c;">
+✅ HIGHLIGHTS
+</h2>
+
+- 🔗 Covers Core Java, Collections, Strings, GUI, Web, JDBC
+- 🌐 Combines Frontend + Backend logic
+- 💾 Uses MySQL Database and real-time examples
+- ✨ Code is clean, modular, and well-commented
+
+---
+
+<i>📁 Be sure to link your `.java`, `.jsp`, `.html`, and screenshot files to this summary in your repository.</i>
