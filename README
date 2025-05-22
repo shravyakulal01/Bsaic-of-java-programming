@@ -1,136 +1,139 @@
-# ✨ Java Assignment Programs – Summary
+# 💥💻 JAVA ASSIGNMENT – PROGRAM SUMMARY
 
 ---
 
-## 🔹 **1. Collections – ArrayList & LinkedList**
+## 🧩 1️⃣ COLLECTIONS – ARRAYLIST & LINKEDLIST
 
-### ✅ **1a. ArrayList vs LinkedList Operations**
-- 🌿 Add elements
-- 📌 Insert at specific index
-- 🔁 Add multiple elements
-- 🔍 Access & Search elements
-- ✏️ Update elements
-- ❌ Remove elements
-- 🔢 Get size
-- 🔄 Iterate using `for` and `Iterator`
-- 📊 Sort the list
-- ✂️ Sublist extraction
-- 🧹 Clear the list
-
----
-
-### ✅ **1b. ArrayList Programs**
-- 🎨 Store and search for specific colors
-- ❌ Remove 2nd color and a color by name
-- 📊 Sort colors using `Collections.sort()`
-- ✂️ Extract first and second color using `subList()`
-- ❌ Remove nth color using index
+### 🔸 1a. **ArrayList vs LinkedList**
+**🔹 Perform Operations:**
+- 🌿 **Add Elements**
+- 📌 **Insert at Index**
+- 🔁 **Add Multiple**
+- 🔍 **Access / Search**
+- ✏️ **Update**
+- ❌ **Delete**
+- 🔢 **Size**
+- 🔄 **Iterate (for / Iterator)**
+- 📊 **Sort**
+- ✂️ **Sublist**
+- 🧹 **Clear**
 
 ---
 
-### ✅ **1c. LinkedList Programs**
-- 🔄 Iterate from 2nd position using `ListIterator`
-- ⬇️ Reverse iteration using `descendingIterator`
-- ➕ Insert color at the end using `offerLast()`
-- 📍 Display elements with their positions
-- 🔁 Swap first and third elements using `Collections.swap()`
+### 🔸 1b. **ArrayList Programs**
+- 🎨 Store & **search** for colors
+- ❌ **Remove** by index/value
+- 📊 **Sort** using `Collections.sort()`
+- ✂️ **Extract Sublist**
+- ❌ **Delete nth element**
 
 ---
 
-## 🔹 **2. String Handling**
-
-### ✅ **2a. String Operations**
-- 🔤 String creation & access
-- 📏 Length & character manipulation
-- 🔁 Comparison (equals, compareTo)
-- 🔍 Searching & substring
-- ✏️ String modification (replace, trim, etc.)
-- ➕ Concatenation
-- 🔗 Splitting strings
-- 🛠️ StringBuilder usage
-- ✨ Formatting output
-- 📧 Email validation using `contains()`, `startsWith()`, `endsWith()`
+### 🔸 1c. **LinkedList Programs**
+- 🔄 **Iterate from position** using `ListIterator`
+- 🔃 **Reverse Iterate**
+- ➕ **Insert at end**
+- 🧾 **Show index-wise data**
+- 🔁 **Swap elements**
 
 ---
 
-### ✅ **2b. StringBuilder vs StringBuffer**
-- ⏱️ Appending the string "AIET" 10,000 times
-- ⚡ Compare performance
-- ✅ `StringBuilder` is faster and recommended in single-threaded apps
+## 🧵 2️⃣ STRING OPERATIONS
+
+### 🔸 2a. **Core String Functions**
+- 🔤 **Create, Length, Char Access**
+- 🔁 **Compare**
+- 🔍 **Search & Substring**
+- ✏️ **Modify & Trim**
+- ➕ **Concatenate**
+- 🔗 **Split**
+- 🔧 **StringBuilder**
+- 🎨 **Format Strings**
+- 📧 **Email Validation**
 
 ---
 
-## 🔹 **3. String Exercise Programs**
-
-### 🧪 **Part 1**
-- 🕳️ Check if string is null/empty
-- 🔁 Count occurrences of substring
-- 🔄 Reverse the string
-- 🔁 Check palindrome
-- 🧼 Remove whitespaces
-
-### 🧪 **Part 2**
-- 🔡 Capitalize first letter of each word
-- ✂️ Truncate string with ellipsis
-- 🔢 Check if string is numeric
-- 🎲 Generate random string of specific length
-- 🧮 Count number of words in a string
+### 🔸 2b. **StringBuffer vs StringBuilder**
+- ⏱️ Append "AIET" 10,000 times
+- ⚡ **Compare speed**
+- ✅ **StringBuilder is faster**
 
 ---
 
-## 🔹 **4. Swing GUI Programs**
+## 🧪 3️⃣ STRING EXERCISES
 
-### ✅ **Basic Swing**
-- 👋 Display "Hello! VI C..." message in blue
-- 🇮🇳 Display message when India/Sri Lanka button is clicked
-- 🕰️ Display message for image buttons (Digital Clock / Hour Glass)
+### 🔸 Part 1
+- 🕳️ **Null or Empty Check**
+- 🔁 **Count Substring**
+- 🔄 **Reverse String**
+- 🔁 **Check Palindrome**
+- 🧼 **Remove Whitespace**
 
----
-
-## 🔹 **5. Advanced Swing with JList & Tabs**
-
-- 🌎 Select country from JList and show country/capital
-- 🎨 Use JTabbedPane to switch between colors (Red, Blue, Green)
-- 🌈 Display Cyan, Magenta, Yellow in tabs
-
----
-
-## 🔹 **6. Servlet Programs**
-
-- ➗ Calculate factorial using Servlet & HTML form
-- 🍪 Create a cookie for name and show visit count
-- 🔢 Check if a number is prime using Servlet
+### 🔸 Part 2
+- 🔡 **Capitalize Words**
+- ✂️ **Truncate String**
+- 🔢 **Check Numeric**
+- 🎲 **Generate Random String**
+- 🧮 **Count Words**
 
 ---
 
-## 🔹 **7. JSP – Session & Cookie Management**
+## 🎨 4️⃣ SWING GUI
 
-- 🕒 Session-based greeting with 1-minute timeout
-- 🍪 Add cookie with name, domain, expiry and display all cookies
-
----
-
-## 🔹 **8. JSP + JDBC – Coffee & Employee Management**
-
-- ☕ Insert a new coffee product (id, name, price)
-- 🔁 Update a coffee product by ID
-- 👨‍💼 Insert employee (empno, name, salary) and generate a **Salary Report**
-- ✏️ Update employee details using form input
+- 👋 Hello Swing Message
+- 🇮🇳 Button Press Message: **India / Sri Lanka**
+- 🕰️ Button with Images: **Digital Clock / Hour Glass**
 
 ---
 
-## 🔹 **9. JSP + JDBC – Queries and Deletions**
+## 🖼️ 5️⃣ ADVANCED SWING – JList & Tabs
 
-- ❌ Delete a coffee product by ID and show remaining
-- 🔍 Display all coffee names starting with **D**
-- ➕ Insert employees and generate salary report
-- ❌ Delete employees whose name starts with **S**
-
----
-
-✅ **Note**: All programs include user input, backend logic using Java, and output displayed via console, GUI, or browser using JSP/Servlet.
+- 🌍 **Select Countries / Capitals**
+- 🟥🟦🟩 **Tabbed Colors**: Red, Green, Blue
+- 🌈 More Tabs: Cyan, Magenta, Yellow
 
 ---
 
-🖊️ *Prepared for submission with clean, modular code, proper comments, and UI elements where needed.*
+## 🌐 6️⃣ SERVLET PROGRAMS
 
+- ➗ **Factorial Calculator**
+- 🍪 **Cookie Visit Counter**
+- 🔢 **Prime Number Checker**
+
+---
+
+## 🧁 7️⃣ JSP – SESSION & COOKIE
+
+- ⏲️ **1-Minute Session Expiry Greeting**
+- 🍪 **Cookie: Add Name, Domain, Expiry**
+
+---
+
+## 📊 8️⃣ JSP + JDBC – DATABASE PROGRAMS
+
+- ☕ **Insert Coffee Record**
+- 🔁 **Update Coffee by ID**
+- 👨‍💼 **Insert Employees & Salary Report**
+- ✏️ **Update Employee Info**
+
+---
+
+## 🗑️ 9️⃣ JDBC – DATA QUERY & DELETE
+
+- ❌ **Delete Coffee by ID**
+- 🔍 **Search Coffee Starting with 'D'**
+- 📥 **Insert Employee & Show Report**
+- ❌ **Delete Employees starting with 'S'**
+
+---
+
+# ✅ HIGHLIGHTS
+
+- 🔗 Covers **Core Java**, **Collections**, **String**, **Swing**, **Servlet**, **JSP**, and **JDBC**
+- 🌐 Combines **Frontend + Backend** logic
+- 💾 Uses **MySQL DB** and real-world scenarios
+- ✨ Code is **modular, readable, and well-commented**
+
+---
+
+> 🖊️ *Add your `.java`, `.jsp`, `.html`, and screenshots in your repo and link them in this file if needed.*
