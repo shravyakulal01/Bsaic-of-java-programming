@@ -1,120 +1,136 @@
-# 💻 Java Programs – Assignment Repository
-
-Explore all fundamental and advanced Java programs including `ArrayList`, `LinkedList`, `Swing`, `Servlet`, `JSP`, and `JDBC`.
+# ✨ Java Assignment Programs – Summary
 
 ---
 
-## ✅ 1. Collections – ArrayList & LinkedList
+## 🔹 **1. Collections – ArrayList & LinkedList**
 
-### 📌 1a. ArrayList vs LinkedList Operations
-- Add, Update, Remove, Search, Sort, Sublist, Iterator, etc.
-
-[`📝 Code`](./1a_ArrayListLinkedList.java) | [`📷 Output`](./screenshots/1a_output.png)
-
-### 📌 1b. ArrayList Programs
-- ✅ Search color
-- ✅ Remove by index and value
-- ✅ Sort colors
-- ✅ Sublist extraction
-- ✅ Remove nth element
-
-[`📝 Code`](./1b_ArrayListPrograms.java) | [`📷 Output`](./screenshots/1b_output.png)
-
-### 📌 1c. LinkedList Programs
-- Iterate from 2nd position
-- Reverse iteration
-- Insert at end
-- Display index-wise elements
-- Swap elements
-
-[`📝 Code`](./1c_LinkedListPrograms.java) | [`📷 Output`](./screenshots/1c_output.png)
+### ✅ **1a. ArrayList vs LinkedList Operations**
+- 🌿 Add elements
+- 📌 Insert at specific index
+- 🔁 Add multiple elements
+- 🔍 Access & Search elements
+- ✏️ Update elements
+- ❌ Remove elements
+- 🔢 Get size
+- 🔄 Iterate using `for` and `Iterator`
+- 📊 Sort the list
+- ✂️ Sublist extraction
+- 🧹 Clear the list
 
 ---
 
-## ✅ 2. String Handling
-
-### 📌 2a. String Operations
-- Creation, Length, Comparison, Substring, Concat, Format, Email validation
-
-[`📝 Code`](./2a_StringFunctions.java) | [`📷 Output`](./screenshots/2a_output.png)
-
-### 📌 2b. StringBuilder vs StringBuffer Performance Test
-
-[`📝 Code`](./2b_PerformanceTest.java) | [`📷 Output`](./screenshots/2b_output.png)
+### ✅ **1b. ArrayList Programs**
+- 🎨 Store and search for specific colors
+- ❌ Remove 2nd color and a color by name
+- 📊 Sort colors using `Collections.sort()`
+- ✂️ Extract first and second color using `subList()`
+- ❌ Remove nth color using index
 
 ---
 
-## ✅ 3. String Exercises
-
-### 📌 3b. Part 1
-- Null check, Count substring, Reverse string, Palindrome, Remove whitespace
-
-### 📌 3c. Part 2
-- Capitalize words, Truncate, Check numeric, Generate random string, Count words
-
-[`📝 Code`](./3_StringExercises.java) | [`📷 Output`](./screenshots/3_output.png)
+### ✅ **1c. LinkedList Programs**
+- 🔄 Iterate from 2nd position using `ListIterator`
+- ⬇️ Reverse iteration using `descendingIterator`
+- ➕ Insert color at the end using `offerLast()`
+- 📍 Display elements with their positions
+- 🔁 Swap first and third elements using `Collections.swap()`
 
 ---
 
-## ✅ 4. Swing Basics
+## 🔹 **2. String Handling**
 
-### 📌 4a. Hello Swing GUI  
-### 📌 4b. Button: India or Sri Lanka  
-### 📌 4c. Button with Image: Digital Clock or Hour Glass  
-
-[`📝 Code`](./4_SwingPrograms.java) | [`📷 Output`](./screenshots/4_output.png)
-
----
-
-## ✅ 5. Advanced Swing
-
-- JList and display selection (country or capital)
-- TabbedPane for different colors
-
-[`📝 Code`](./5_SwingAdvanced.java) | [`📷 Output`](./screenshots/5_output.png)
+### ✅ **2a. String Operations**
+- 🔤 String creation & access
+- 📏 Length & character manipulation
+- 🔁 Comparison (equals, compareTo)
+- 🔍 Searching & substring
+- ✏️ String modification (replace, trim, etc.)
+- ➕ Concatenation
+- 🔗 Splitting strings
+- 🛠️ StringBuilder usage
+- ✨ Formatting output
+- 📧 Email validation using `contains()`, `startsWith()`, `endsWith()`
 
 ---
 
-## ✅ 6. Servlet Programs
-
-- Factorial calculation  
-- Cookie to track user visits  
-- Prime number check  
-
-[`📝 Code`](./6_ServletPrograms.java) | [`📷 Output`](./screenshots/6_output.png)
+### ✅ **2b. StringBuilder vs StringBuffer**
+- ⏱️ Appending the string "AIET" 10,000 times
+- ⚡ Compare performance
+- ✅ `StringBuilder` is faster and recommended in single-threaded apps
 
 ---
 
-## ✅ 7. JSP Cookie & Session Management
+## 🔹 **3. String Exercise Programs**
 
-- Session with 1-minute expiry  
-- Add cookies with name/domain/max age  
+### 🧪 **Part 1**
+- 🕳️ Check if string is null/empty
+- 🔁 Count occurrences of substring
+- 🔄 Reverse the string
+- 🔁 Check palindrome
+- 🧼 Remove whitespaces
 
-[`📝 Code`](./7_JSP_SessionCookie.java) | [`📷 Output`](./screenshots/7_output.png)
-
----
-
-## ✅ 8. JDBC + JSP – Coffee & Employee Tables
-
-- ➕ Insert Coffee
-- 🔁 Update Coffee
-- 🧾 Insert Employee & Show Salary Report
-- ✏️ Update Employee
-
-[`📝 Code`](./8_JDBC_Projects.java) | [`📷 Output`](./screenshots/8_output.png)
+### 🧪 **Part 2**
+- 🔡 Capitalize first letter of each word
+- ✂️ Truncate string with ellipsis
+- 🔢 Check if string is numeric
+- 🎲 Generate random string of specific length
+- 🧮 Count number of words in a string
 
 ---
 
-## ✅ 9. JDBC + JSP – Data Querying & Deletion
+## 🔹 **4. Swing GUI Programs**
 
-- ❌ Delete coffee by ID  
-- 🔍 Display coffee starting with 'D'  
-- 🧾 Insert employee records  
-- ❌ Delete employees starting with 'S'  
-
-[`📝 Code`](./9_JDBC_Advanced.java) | [`📷 Output`](./screenshots/9_output.png)
+### ✅ **Basic Swing**
+- 👋 Display "Hello! VI C..." message in blue
+- 🇮🇳 Display message when India/Sri Lanka button is clicked
+- 🕰️ Display message for image buttons (Digital Clock / Hour Glass)
 
 ---
 
-> 📎 Replace links like `./filename.java` and `./screenshots/output.png` with your actual file locations in your repository.
+## 🔹 **5. Advanced Swing with JList & Tabs**
+
+- 🌎 Select country from JList and show country/capital
+- 🎨 Use JTabbedPane to switch between colors (Red, Blue, Green)
+- 🌈 Display Cyan, Magenta, Yellow in tabs
+
+---
+
+## 🔹 **6. Servlet Programs**
+
+- ➗ Calculate factorial using Servlet & HTML form
+- 🍪 Create a cookie for name and show visit count
+- 🔢 Check if a number is prime using Servlet
+
+---
+
+## 🔹 **7. JSP – Session & Cookie Management**
+
+- 🕒 Session-based greeting with 1-minute timeout
+- 🍪 Add cookie with name, domain, expiry and display all cookies
+
+---
+
+## 🔹 **8. JSP + JDBC – Coffee & Employee Management**
+
+- ☕ Insert a new coffee product (id, name, price)
+- 🔁 Update a coffee product by ID
+- 👨‍💼 Insert employee (empno, name, salary) and generate a **Salary Report**
+- ✏️ Update employee details using form input
+
+---
+
+## 🔹 **9. JSP + JDBC – Queries and Deletions**
+
+- ❌ Delete a coffee product by ID and show remaining
+- 🔍 Display all coffee names starting with **D**
+- ➕ Insert employees and generate salary report
+- ❌ Delete employees whose name starts with **S**
+
+---
+
+✅ **Note**: All programs include user input, backend logic using Java, and output displayed via console, GUI, or browser using JSP/Servlet.
+
+---
+
+🖊️ *Prepared for submission with clean, modular code, proper comments, and UI elements where needed.*
 
